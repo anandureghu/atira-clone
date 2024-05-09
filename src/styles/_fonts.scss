@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "subjectivity"; /*a name to be used later*/
+  src: url("/assets/fonts/subjectivity/Subjectivity-Regular.woff2");
+}
+
+@font-face {
+  font-family: "subjectivity-medium"; /*a name to be used later*/
+  src: url("/assets/fonts/subjectivity/Subjectivity-Medium.woff2");
+}
+
+@font-face {
+  font-family: "subjectivity-bold"; /*a name to be used later*/
+  src: url("/assets/fonts/subjectivity/Subjectivity-Bold.woff2");
+}
+
+@font-face {
+  font-family: "subjectivity-extrabold"; /*a name to be used later*/
+  src: url("/assets/fonts/subjectivity/Subjectivity-ExtraBold.woff2");
+}
+
+@font-face {
+  font-family: "inconsolata"; /*a name to be used later*/
+  src: url("/assets/fonts/Inconsolata/Inconsolata.otf");
+}
+
+$font-subjectivity: "subjectivity";
+$font-inconsolata: "inconsolata";
