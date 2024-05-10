@@ -1,10 +1,12 @@
+import AppGrid from './components/grid/AppGrid';
 import AppRouter from './router/AppRouter';
+import styles from './App.module.scss';
 
 function App() {
   return (
     <>
-      <div className="app">
-        <div className="grids"></div>
+      <div className={styles.app}>
+        <AppGrid />
         <AppRouter />
       </div>
     </>
