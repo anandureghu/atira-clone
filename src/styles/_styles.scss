@@ -1,6 +1,11 @@
-@import "./reset";
-@import "./variables";
+@import './reset';
+@import './variables';
 
 * {
-  font-family: $font-subjectivity;
+  font-family: $font-maxim;
+  font-style: normal;
+  font-weight: 900;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

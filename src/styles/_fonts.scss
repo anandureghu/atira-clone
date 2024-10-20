@@ -1,27 +1,60 @@
 @font-face {
-  font-family: "subjectivity"; /*a name to be used later*/
-  src: url("/assets/fonts/subjectivity/Subjectivity-Regular.woff2");
+  font-family: 'subjectivity'; /*a name to be used later*/
+  src: url('/assets/fonts/subjectivity/Subjectivity-Regular.woff2');
 }
 
 @font-face {
-  font-family: "subjectivity-medium"; /*a name to be used later*/
-  src: url("/assets/fonts/subjectivity/Subjectivity-Medium.woff2");
+  font-family: 'subjectivity-medium'; /*a name to be used later*/
+  src: url('/assets/fonts/subjectivity/Subjectivity-Medium.woff2');
 }
 
 @font-face {
-  font-family: "subjectivity-bold"; /*a name to be used later*/
-  src: url("/assets/fonts/subjectivity/Subjectivity-Bold.woff2");
+  font-family: 'subjectivity-bold'; /*a name to be used later*/
+  src: url('/assets/fonts/subjectivity/Subjectivity-Bold.woff2');
 }
 
 @font-face {
-  font-family: "subjectivity-extrabold"; /*a name to be used later*/
-  src: url("/assets/fonts/subjectivity/Subjectivity-ExtraBold.woff2");
+  font-family: 'subjectivity-extrabold'; /*a name to be used later*/
+  src: url('/assets/fonts/subjectivity/Subjectivity-ExtraBold.woff2');
 }
 
 @font-face {
-  font-family: "inconsolata"; /*a name to be used later*/
-  src: url("/assets/fonts/Inconsolata/Inconsolata.otf");
+  font-family: 'inconsolata'; /*a name to be used later*/
+  src: url('/assets/fonts/Inconsolata/Inconsolata.otf');
 }
 
-$font-subjectivity: "subjectivity";
-$font-inconsolata: "inconsolata";
+// Maxim Font
+@font-face {
+  font-family: 'maxim';
+  src: url('/assets/fonts/maxim/MaximSans-Bold.otf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'maxim';
+  src: url('/assets/fonts/maxim/MaximSans-Light.otf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'maxim';
+  src: url('/assets/fonts/maxim/MaximSans-Semibold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'maxim';
+  src: url('/assets/fonts/maxim/MaximSans-Regular.otf');
+  font-weight: 400;
+}
+
+// Plans font
+@font-face {
+  font-family: 'plans';
+  src: url('/assets/fonts/plans.ttf');
+}
+
+$font-subjectivity: 'subjectivity';
+$font-inconsolata: 'inconsolata';
+$font-maxim: 'maxim';
+$font-plans: 'plans';

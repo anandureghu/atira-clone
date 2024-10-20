@@ -8,11 +8,11 @@ interface IEmptyTableRowProps {
 const EmptyTableRow: React.FC<IEmptyTableRowProps> = () => {
   return (
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   );
 };
